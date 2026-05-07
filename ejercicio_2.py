@@ -1,10 +1,5 @@
 def knapsack_fraccionado(articulos, W):
-    """
-    Knapsack fraccionado greedy.
-    articulos: lista de tuplas (precio, peso_disponible)
-    W: capacidad máxima de la bolsa (en unidades)
-    Retorna: (lista de (indice, unidades_tomadas, valor_obtenido), valor_total)
-    """
+
     # Ordenar por razón precio/peso descendente
     indexados = [(i, p, w) for i, (p, w) in enumerate(articulos)]
     indexados.sort(key=lambda x: x[1] / x[2], reverse=True)

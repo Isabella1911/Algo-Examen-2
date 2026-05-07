@@ -1,9 +1,5 @@
 def nokia_combinaciones(n):
-    """
-    Cuenta combinaciones de n dígitos en teclado Nokia 3230.
-    Solo movimientos adyacentes (arriba/abajo/izq/der).
-    Excluye * y #.
-    """
+    
     vecinos = {
         0: [8],
         1: [2, 4],

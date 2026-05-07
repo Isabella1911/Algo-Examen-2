@@ -1,9 +1,5 @@
 def hacer_sencillo(monto_centavos):
-    """
-    Greedy coin change con denominaciones {1, 5, 10, 25}.
-    monto_centavos: int (monto en centavos)
-    Retorna: (dict denominacion->cantidad, total_monedas)
-    """
+    
     denominaciones = [25, 10, 5, 1]
     resultado = {}
     restante = monto_centavos
